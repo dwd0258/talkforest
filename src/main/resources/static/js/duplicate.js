@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
     document.querySelector('form').addEventListener('submit', function(e){
         if(document.getElementById('email').value == '') {
             e.preventDefault(); // 폼 전송 막는 함수
